@@ -1,0 +1,24 @@
+h1 {
+	color: purple;
+	text-align: center;
+	font-size: 190%;
+	font-family: "Helvetiva Neue", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+header p {
+	color: green;
+}
+header p span {
+	color: navy;
+}
+
+.highlight {
+	background-color: rebeccapurple;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+footer p.highlight {
+	background-color: #75A8FF;
+}

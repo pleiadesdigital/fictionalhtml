@@ -1,0 +1,16 @@
+.box-a {
+	background-color: #8275FF;
+	padding: 30px;
+	border: 3px solid #0B0826;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 150px;
+	box-sizing: border-box;
+
+}
+
+.box-b {
+	background-color: #4BB02B;
+	width: 250px;
+	height: 150px;
+}
