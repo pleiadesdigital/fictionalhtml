@@ -119,10 +119,9 @@ header p {
 .content-area {
 	border-top: 3px solid #D6E1D0;
 	border-bottom: 3px solid #D6E1D0;
+	font-size: 95%;
 }
-.content-area {
-	font-size: 85%;
-}
+
 .content-area p {
 	text-align: justify;
 	/*text-indent: 10px;*/
@@ -156,19 +155,57 @@ header p {
 	padding: 10px;
 }
 
+/* UI MENU */
+.ui-menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+.ui-menu li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+.ui-menu a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+.ui-profile a {
+	background-position: 0px -50px;
+}
+.ui-settings a {
+	background-position: 0px -100px;
+}
+.ui-home a:hover {
+	background-position: -50px 0px;
+}
+.ui-profile a:hover {
+	background-position: -50px -50px;
+}
+.ui-settings a:hover {
+	background-position: -50px -100px;
+}
 
+
+/* SIDEBAR */
 .sidebar {
 	position: relative;
 	width: 34%;
 	float: left;
-	background-color: #D6E1D0;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	box-sizing: border-box;
 	font-size: 95%;
+	background-color: #E5E9DC;
+	background-image: linear-gradient(to bottom, #D6E1D0, #FFFFFF);
+	display: flex;
 }
+
 
 /* banner overlay */
 
