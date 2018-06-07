@@ -1,0 +1,46 @@
+$primaryColor: #243368;
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+a {
+	color: $primaryColor;
+}
+
+@import "header";
+
+.btn-a {
+	display: inline-block;
+	padding: 15px;
+	margin-right: 10px;
+	border: 1px solid $primaryColor;
+	border-radius: 7px;
+	font-size: 80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn-b {
+	@extend .btn-a;
+	background-color: lighten($primaryColor, 45%);
+	// color: #000;
+}
+
+
+.row:before,
+.row:after,
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.row:after,
+.group:after {
+	clear: both;
+}
+
+.row,
+.group {
+	zoom: 1;
+}
